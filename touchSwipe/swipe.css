@@ -1,0 +1,31 @@
+.swipe{
+		margin: 0 auto;
+		overflow: hidden;
+		position: relative;
+	}
+	.swipe span{
+		position: absolute;
+		top:10px;
+		right:10px;
+		font-weight: bold;
+		color:darkseagreen;
+	}
+	.swipe .wrap{
+		width: 100%;
+		height: 100%;
+		list-style: none;
+	}
+	.swipe .wrap .item{
+		width: 100%;
+		position: absolute;
+		-webkit-transform:translate3d(100%,0,0);
+	}
+	.swipe .wrap .item:nth-child(1){
+		-webkit-transform:translate3d(0,0,0);
+	}
+	.swipe .wrap .item img{
+		width: 100%;
+		height: auto;
+		vertical-align: middle;
+	}
+	
