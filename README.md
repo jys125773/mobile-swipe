@@ -1,5 +1,5 @@
 # mobile-swipe
-这是一个原创的移动端的触屏滑动组件，原生面向对象组件，-webkit-tranform css3 渲染硬件加速，智能响应手指滑动速度
+这是一个移动端的触屏滑动组件，原生面向对象组件，-webkit-tranform css3 渲染硬件加速，智能响应手指滑动速度
 > 
 window.swipe = new Swipe({
 > 
